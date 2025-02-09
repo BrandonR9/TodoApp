@@ -32,14 +32,14 @@ class _DetailsWidgetState extends State<DetailsWidget> {
     _model.textController1 ??= TextEditingController(
         text: valueOrDefault<String>(
       widget.taskDoc?.title,
-      'title',
+      'title...',
     ));
     _model.textFieldFocusNode1 ??= FocusNode();
 
     _model.textController2 ??= TextEditingController(
         text: valueOrDefault<String>(
       widget.taskDoc?.details,
-      'details',
+      'details...',
     ));
     _model.textFieldFocusNode2 ??= FocusNode();
 

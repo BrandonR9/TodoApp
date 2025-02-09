@@ -94,7 +94,7 @@ class _TaskWidgetState extends State<TaskWidget> {
                 child: Text(
                   valueOrDefault<String>(
                     widget.taskDoc?.title,
-                    'title',
+                    'Title',
                   ),
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Inter',
